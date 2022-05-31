@@ -1,0 +1,52 @@
+h1 {
+    color: rgb(30, 102, 235);
+}
+*{
+    border: solid;
+}
+.Header{
+    background-color: #F0F0F0;
+    display: flex;
+    justify-content: space-between ;
+}
+.site-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+}
+.Grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+a:link{
+    color: rgb(255,255,255)
+}
+a:visited{
+    color:rgb(155,200,10)
+}
+.Item{
+display: flex;
+margin-right: 30px;
+justify-content: space-evenly;
+
+}
+.Item p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+.Item:hover p{
+    opacity: 1;
+}
+.Item:hover img{
+    opacity: 0.33;
+}
+p,h2{
+    text-align: center;
+}
+body{
+    background-color: #A17A51;
+}
